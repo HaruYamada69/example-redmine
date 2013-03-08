@@ -1,5 +1,7 @@
 rakecmd = 'rake'
-if !File.exist?("/usr/bin/rake") rakecmd = 'rake19'
+if !File.exist?("/usr/bin/rake") then
+  rakecmd = 'rake19'
+end
 
 if !File.exist?("#{shared_path}/config/secret_token.rb") then
   run "#{rakecmd} generate_secret_token"
