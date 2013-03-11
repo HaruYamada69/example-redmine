@@ -1,4 +1,10 @@
-= Redmine
+= Redmine for Engine Yard Cloud
+
+This is example of Redmine installation on Engine Yard Cloud.
+To use this repo, please use Ruby1.8.x runtime and "engineyard" branch for your deployment.
+
+
+= Original README from redmine
 
 Redmine is a flexible project management web application written using Ruby on Rails framework.
 
